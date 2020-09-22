@@ -1,6 +1,6 @@
 {
   "name": "running-at",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "src/index.js",
   "scripts": {
@@ -11,9 +11,7 @@
   "author": "Maximilian Schiller",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^4.1.0",
-    "default-gateway": "^6.0.2",
-    "os": "^0.1.1"
+    "default-gateway": "^6.0.2"
   },
   "devDependencies": {
     "@betahuhn/eslint-config-node": "^0.1.0",

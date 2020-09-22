@@ -1,5 +1,4 @@
 const os = require('os')
-const chalk = require('chalk')
 const defaultGateway = require('default-gateway')
 const url = require('url')
 
@@ -8,8 +7,8 @@ const print = function(options) {
 	const result = runningAt(options)
 
 	console.log('   Running at:')
-	console.log('   - Local:   ' + chalk.blue(result.local))
-	if (result.network) console.log('   - Network: ' + chalk.blue(result.network))
+	console.log('   - Local:   \x1b[34m%s\x1b[0m', result.local)
+	if (result.network) console.log('   - Network: \x1b[34m%s\x1b[0m', result.network)
 
 }
 
