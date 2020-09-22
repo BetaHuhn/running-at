@@ -2,6 +2,10 @@ const os = require('os')
 const defaultGateway = require('default-gateway')
 const url = require('url')
 
+/**
+ * Prints local and network ip as url to console
+ * @param {number | object} options - port or object containing options
+ */
 const print = function(options) {
 
 	const result = runningAt(options)
@@ -40,6 +44,11 @@ const getInterfaceName = function() {
 
 }
 
+/**
+ * Returns local and network ip as url
+ * @param {number | object} options - port or object containing options
+ * @returns {object} object containing ip, local and network
+ */
 const runningAt = function(options) {
 
 	const defaultOptions = {
