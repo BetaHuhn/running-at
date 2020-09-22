@@ -1,28 +1,95 @@
 <div align="center">
 
-## !UNDER DEVELOPMENT!
-
 # running-at
 
 ![Test](https://github.com/BetaHuhn/running-at/workflows/Test/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/BetaHuhn/running-at/badge.svg?branch=master)](https://coveralls.io/github/BetaHuhn/running-at?branch=master) [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/BetaHuhn/running-at/blob/master/LICENSE) ![David](https://img.shields.io/david/betahuhn/running-at) [![npm](https://img.shields.io/npm/v/running-at)](https://www.npmjs.com/package/running-at)
 
 Get local and network address of Node.js process
 
+![preview](https://assets.mxis.ch/running-at/preview.png)
+
 </div>
 
 ## 👋 Introduction
 
+[running-at](https://github.com/BetaHuhn/running-at) returns (or directly prints) your current local and network ip address. This is useful if you want to know the address your server is running at.
 
 ## 🚀 Get started
 
+Install [running-at](https://github.com/BetaHuhn/running-at) via npm:
+```shell
+npm install running-at
+```
 
 ## 📚 Usage
 
+```js
+const runningAt = require('running-at')
+
+runningAt()
+```
+
+
+Will return:
+
+```js
+{
+    ip: "192.168.2.115",
+    local: "http://localhost:3000/",
+    network: "http://192.168.2.115:3000/"
+}
+```
+
+Or run it like this:
+
+```js
+const runningAt = require('running-at')
+
+runningAt.print()
+```
+
+to directly print the URLs to the console:
+
+```
+Running at:
+- Local:   http://localhost:3000/
+- Network: http://192.168.2.115:3000/
+```
+
+
 ## ⚙️ Options
+
+You can change the behaviour of [running-at](https://github.com/BetaHuhn/running-at) by passing an options object to `runningAt()` or `runningAt.print()`:
+
+```js
+const options = {
+    port: 8080, // default: '3000'
+    protocol: 'https', // default: 'http'
+    host: '127.0.0.1', // default: 'localhost'
+    pathname: '/app', // default: '/'
+    family: 'IPv6', // default: 'IPv4'
+    interface: 'wlan0', // default: 'prefered interface'
+    getNetwork: false // default: true
+}
+
+runningAt()
+
+// or runningAt.print()
+```
+
+If you only want to specify the port, you can directly pass it as a parameter:
+
+```js
+runningAt.print(8080) // Will use 8080 as port
+```
+
+> use process.env.PORT for your server and then just pass it in here
 
 ## 💻 Development
 
 Issues and PRs are very welcome!
+
+Run `yarn lint` or `npm run lint` to lint the project and run `yarn test` or `npm run test` to run all unit tests.
 
 ## ❔ About
 
