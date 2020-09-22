@@ -4,7 +4,7 @@
 
 ![Test](https://github.com/BetaHuhn/running-at/workflows/Test/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/BetaHuhn/running-at/badge.svg?branch=master)](https://coveralls.io/github/BetaHuhn/running-at?branch=master) [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/BetaHuhn/running-at/blob/master/LICENSE) ![David](https://img.shields.io/david/betahuhn/running-at) [![npm](https://img.shields.io/npm/v/running-at)](https://www.npmjs.com/package/running-at)
 
-Get local and network address of Node.js process
+Get/Print local and network IP address
 
 ![preview](https://assets.mxis.ch/running-at/preview.png)
 
@@ -28,7 +28,6 @@ const runningAt = require('running-at')
 
 runningAt()
 ```
-
 
 Will return:
 
@@ -55,7 +54,6 @@ Running at:
 - Local:   http://localhost:3000/
 - Network: http://192.168.2.115:3000/
 ```
-
 
 ## ⚙️ Options
 
@@ -86,6 +84,33 @@ runningAt.print(8080) // Will use 8080 as port
 
 > use process.env.PORT for your server and then just pass it in here
 
+## 🛠️ Example
+
+Use [running-at](https://github.com/BetaHuhn/running-at) in an [Express](https://expressjs.com/) app:
+
+```js
+const runningAt = require('running-at')
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.listen(port, () => {
+  runningAt.print(port)
+})
+```
+
+After the app has started, it will print:
+
+```
+Running at:
+- Local:   http://localhost:3000/
+- Network: http://192.168.2.115:3000/
+```
+
 ## 💻 Development
 
 Issues and PRs are very welcome!
@@ -98,8 +123,12 @@ This library was developed by me ([@betahuhn](https://github.com/BetaHuhn)) in m
 
 [![Donate via PayPal](https://img.shields.io/badge/paypal-donate-009cde.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=394RTSBEEEFEE)
 
+### Credits
+
+The library was inspired by how the [vue cli](https://cli.vuejs.org/) prints the local and network address when you run `vue-cli-service serve`.
+
 ### License
 
 Copyright 2020 Maximilian Schiller
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
