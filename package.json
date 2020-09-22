@@ -1,15 +1,32 @@
 {
   "name": "running-at",
   "version": "0.1.2",
-  "description": "",
+  "description": "Get local and network ip address",
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
     "test": "nyc --reporter=html --reporter=text ava --verbose",
     "coverage": "nyc --reporter=lcov ava"
   },
-  "author": "Maximilian Schiller",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BetaHuhn/running-at.git"
+  },
+  "author": "Maximilian Schiller <hello@mxis.ch>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BetaHuhn/running-at/issues"
+  },
+  "homepage": "https://github.com/BetaHuhn/running-at#readme",
+  "keywords": [
+    "ip",
+    "address",
+    "network",
+    "local",
+    "nodejs",
+    "npm",
+    "npm-package"
+  ],
   "dependencies": {
     "default-gateway": "^6.0.2"
   },
