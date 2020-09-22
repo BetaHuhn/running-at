@@ -86,5 +86,5 @@ const runningAt = function(options) {
 
 }
 
-runningAt.print = print
 module.exports = runningAt
+module.exports.print = print
