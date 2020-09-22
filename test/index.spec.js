@@ -27,6 +27,11 @@ test.serial('ipv6', async (t) => {
 	t.is(result.local, 'http://localhost:3000/')
 })
 
+test.serial('indentation', async (t) => {
+	runningAt.print({ indentation: true })
+	t.pass()
+})
+
 test.serial('dont print network', async (t) => {
 	runningAt.print({ getNetwork: false })
 	t.pass()

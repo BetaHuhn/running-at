@@ -69,7 +69,8 @@ const options = {
     pathname: '/app', // default: '/'
     family: 'IPv6', // default: 'IPv4'
     interface: 'wlan0', // default: 'prefered interface'
-    getNetwork: false // default: true
+    getNetwork: false, // default: true,
+    indentation: true // default: false
 }
 
 runningAt()

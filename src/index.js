@@ -6,9 +6,11 @@ const print = function(options) {
 
 	const result = runningAt(options)
 
-	console.log('   Running at:')
-	console.log('   - Local:   \x1b[34m%s\x1b[0m', result.local)
-	if (result.network) console.log('   - Network: \x1b[34m%s\x1b[0m', result.network)
+	const indentation = options && options.indentation ? '   ' : ''
+
+	console.log(indentation + 'Running at:')
+	console.log(indentation + '- Local:   \x1b[34m%s\x1b[0m', result.local)
+	if (result.network) console.log(indentation + '- Network: \x1b[34m%s\x1b[0m', result.network)
 
 }
 
@@ -47,7 +49,8 @@ const runningAt = function(options) {
 		pathname: '/',
 		family: 'IPv4',
 		interface: getInterfaceName(),
-		getNetwork: true
+		getNetwork: true,
+		indentation: false
 	}
 
 	if (typeof options === 'number') {
