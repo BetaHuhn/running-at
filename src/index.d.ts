@@ -15,5 +15,5 @@ export interface Result {
     network?: string
 }
 
-export default function(option?: Options): Result;
-export function print(option?: Options): void;
+export default function(option?: Options | number | string): Result;
+export function print(option?: Options | number | string): void;

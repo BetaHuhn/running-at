@@ -4,7 +4,7 @@ const url = require('url')
 
 /**
  * Prints local and network ip as url to console
- * @param {number | object} options - port or object containing options
+ * @param {number | string | object} options - port or object containing options
  */
 const print = function(options) {
 
@@ -46,7 +46,7 @@ const getInterfaceName = function() {
 
 /**
  * Returns local and network ip as url
- * @param {number | object} options - port or object containing options
+ * @param {number | string | object} options - port or object containing options
  * @returns {object} object containing ip, local and network
  */
 const runningAt = function(options) {
@@ -62,7 +62,7 @@ const runningAt = function(options) {
 		indentation: false
 	}
 
-	if (typeof options === 'number') {
+	if (typeof options === 'number' || typeof options === 'string') {
 		options = Object.assign({}, defaultOptions, { port: options })
 	} else {
 		options = Object.assign({}, defaultOptions, options)

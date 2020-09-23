@@ -1,6 +1,6 @@
 {
   "name": "running-at",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Get local and network ip address",
   "main": "src/index.js",
   "scripts": {
