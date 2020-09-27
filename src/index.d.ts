@@ -1,5 +1,5 @@
 export interface Options {
-    port?: number,
+    port?: number | string,
     protocol?: string,
     host?: string,
     pathname?: string,
