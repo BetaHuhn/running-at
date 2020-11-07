@@ -6,7 +6,7 @@
 
 Get/Print local and network IP address
 
-![preview](https://assets.mxis.ch/running-at/preview.png)
+![preview](https://cdn.mxis.ch/assets/running-at/preview.png)
 
 </div>
 
