@@ -1,25 +1,29 @@
-name: Test
-
+name: Test CI
 on:
   push:
-    branches: [ master ]
+    branches-ignore:
+      - master
   pull_request:
-    branches: [ master ]
-
+    branches-ignore:
+      - master
 jobs:
-  build:
+  test:
+    name: Test
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[skip-build]')"
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
     steps:
-      - uses: actions/checkout@v2
-      - uses: c-hive/gha-npm-cache@v1
-      - name: Install dependencies
-        run: npm install
-      - name: Test
-        run: npm run test
-      - name: Run coverage
-        run: npm run coverage
-      - name: Coveralls
-        uses: coverallsapp/github-action@master
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Cache node modules
+      uses: c-hive/gha-npm-cache@v1
+    - name: Install dependencies
+      run: npm ci
+    - name: Run tests
+      run: npm run coverage
+    - name: Generate coverage report
+      uses: coverallsapp/github-action@master
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}

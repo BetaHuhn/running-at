@@ -31,7 +31,7 @@
     "default-gateway": "^6.0.2"
   },
   "devDependencies": {
-    "@betahuhn/eslint-config-node": "^0.1.0",
+    "@betahuhn/config": "^1.0.2",
     "ava": "^3.12.1",
     "eslint": "^7.9.0",
     "nyc": "^15.1.0"
