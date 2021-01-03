@@ -1,3 +1,11 @@
+## [v0.3.6] - 2021-01-03
+
+[Release notes](https://github.com/BetaHuhn/running-at/releases/tag/v0.3.6) · [Compare](https://github.com/BetaHuhn/running-at/compare/v0.3.5...v0.3.6) · [Tag](https://github.com/BetaHuhn/running-at/tree/v0.3.6) · Archive ([zip](https://github.com/BetaHuhn/running-at/archive/v0.3.6.zip) · [tar.gz](https://github.com/BetaHuhn/running-at/archive/v0.3.6.tar.gz))
+
+### Updates
+
+- [`4e63e15`](https://github.com/BetaHuhn/running-at/commit/4e63e15)  Use semantic-release
+
 ## [v0.3.5] - 2020-09-27
 ### Changed
 - added string type to port in options interface
