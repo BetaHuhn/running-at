@@ -1,3 +1,7 @@
+## [v0.3.8] - 2021-01-18
+
+[Release notes](https://github.com/BetaHuhn/running-at/releases/tag/v0.3.8) · [Compare](https://github.com/BetaHuhn/running-at/compare/v0.3.7...v0.3.8) · [Tag](https://github.com/BetaHuhn/running-at/tree/v0.3.8) · Archive ([zip](https://github.com/BetaHuhn/running-at/archive/v0.3.8.zip) · [tar.gz](https://github.com/BetaHuhn/running-at/archive/v0.3.8.tar.gz))
+
 ## [v0.3.7] - 2021-01-04
 
 [Release notes](https://github.com/BetaHuhn/running-at/releases/tag/v0.3.7) · [Compare](https://github.com/BetaHuhn/running-at/compare/v0.3.6...v0.3.7) · [Tag](https://github.com/BetaHuhn/running-at/tree/v0.3.7) · Archive ([zip](https://github.com/BetaHuhn/running-at/archive/v0.3.7.zip) · [tar.gz](https://github.com/BetaHuhn/running-at/archive/v0.3.7.tar.gz))
