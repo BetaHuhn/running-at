@@ -1,3 +1,12 @@
+## [v0.3.14] - 2021-04-05
+
+[Release notes](https://github.com/BetaHuhn/running-at/releases/tag/v0.3.14) · [Compare](https://github.com/BetaHuhn/running-at/compare/v0.3.13...v0.3.14) · [Tag](https://github.com/BetaHuhn/running-at/tree/v0.3.14) · Archive ([zip](https://github.com/BetaHuhn/running-at/archive/v0.3.14.zip) · [tar.gz](https://github.com/BetaHuhn/running-at/archive/v0.3.14.tar.gz))
+
+### Dependency updates
+
+- [`3d8b2d6`](https://github.com/BetaHuhn/running-at/commit/3d8b2d6)  Bump eslint from 7.22.0 to 7.23.0
+- [`5bbb6f1`](https://github.com/BetaHuhn/running-at/commit/5bbb6f1)  Bump y18n from 4.0.0 to 4.0.1
+
 ## [v0.3.13] - 2021-03-22
 
 [Release notes](https://github.com/BetaHuhn/running-at/releases/tag/v0.3.13) · [Compare](https://github.com/BetaHuhn/running-at/compare/v0.3.12...v0.3.13) · [Tag](https://github.com/BetaHuhn/running-at/tree/v0.3.13) · Archive ([zip](https://github.com/BetaHuhn/running-at/archive/v0.3.13.zip) · [tar.gz](https://github.com/BetaHuhn/running-at/archive/v0.3.13.tar.gz))
