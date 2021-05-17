@@ -1,3 +1,13 @@
+## [v0.3.17] - 2021-05-17
+
+[Release notes](https://github.com/BetaHuhn/running-at/releases/tag/v0.3.17) · [Compare](https://github.com/BetaHuhn/running-at/compare/v0.3.16...v0.3.17) · [Tag](https://github.com/BetaHuhn/running-at/tree/v0.3.17) · Archive ([zip](https://github.com/BetaHuhn/running-at/archive/v0.3.17.zip) · [tar.gz](https://github.com/BetaHuhn/running-at/archive/v0.3.17.tar.gz))
+
+### Dependency updates
+
+- [`33cddf1`](https://github.com/BetaHuhn/running-at/commit/33cddf1)  Bump eslint from 7.25.0 to 7.26.0
+- [`45e4c69`](https://github.com/BetaHuhn/running-at/commit/45e4c69)  Bump lodash from 4.17.20 to 4.17.21
+- [`4a60ec7`](https://github.com/BetaHuhn/running-at/commit/4a60ec7)  Bump hosted-git-info from 2.8.8 to 2.8.9
+
 ## [v0.3.16] - 2021-05-03
 
 [Release notes](https://github.com/BetaHuhn/running-at/releases/tag/v0.3.16) · [Compare](https://github.com/BetaHuhn/running-at/compare/v0.3.15...v0.3.16) · [Tag](https://github.com/BetaHuhn/running-at/tree/v0.3.16) · Archive ([zip](https://github.com/BetaHuhn/running-at/archive/v0.3.16.zip) · [tar.gz](https://github.com/BetaHuhn/running-at/archive/v0.3.16.tar.gz))
