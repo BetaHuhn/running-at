@@ -1,3 +1,11 @@
+## [v0.3.18] - 2021-05-31
+
+[Release notes](https://github.com/BetaHuhn/running-at/releases/tag/v0.3.18) · [Compare](https://github.com/BetaHuhn/running-at/compare/v0.3.17...v0.3.18) · [Tag](https://github.com/BetaHuhn/running-at/tree/v0.3.18) · Archive ([zip](https://github.com/BetaHuhn/running-at/archive/v0.3.18.zip) · [tar.gz](https://github.com/BetaHuhn/running-at/archive/v0.3.18.tar.gz))
+
+### Dependency updates
+
+- [`724b44f`](https://github.com/BetaHuhn/running-at/commit/724b44f)  Bump eslint from 7.26.0 to 7.27.0
+
 ## [v0.3.17] - 2021-05-17
 
 [Release notes](https://github.com/BetaHuhn/running-at/releases/tag/v0.3.17) · [Compare](https://github.com/BetaHuhn/running-at/compare/v0.3.16...v0.3.17) · [Tag](https://github.com/BetaHuhn/running-at/tree/v0.3.17) · Archive ([zip](https://github.com/BetaHuhn/running-at/archive/v0.3.17.zip) · [tar.gz](https://github.com/BetaHuhn/running-at/archive/v0.3.17.tar.gz))
