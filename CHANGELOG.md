@@ -1,3 +1,13 @@
+## [v0.3.19] - 2021-06-14
+
+[Release notes](https://github.com/BetaHuhn/running-at/releases/tag/v0.3.19) · [Compare](https://github.com/BetaHuhn/running-at/compare/v0.3.18...v0.3.19) · [Tag](https://github.com/BetaHuhn/running-at/tree/v0.3.19) · Archive ([zip](https://github.com/BetaHuhn/running-at/archive/v0.3.19.zip) · [tar.gz](https://github.com/BetaHuhn/running-at/archive/v0.3.19.tar.gz))
+
+### Dependency updates
+
+- [`85e84f0`](https://github.com/BetaHuhn/running-at/commit/85e84f0)  Bump eslint from 7.27.0 to 7.28.0
+- [`03ecfac`](https://github.com/BetaHuhn/running-at/commit/03ecfac)  Bump trim-newlines from 3.0.0 to 3.0.1
+- [`3d15050`](https://github.com/BetaHuhn/running-at/commit/3d15050)  Bump glob-parent from 5.1.1 to 5.1.2
+
 ## [v0.3.18] - 2021-05-31
 
 [Release notes](https://github.com/BetaHuhn/running-at/releases/tag/v0.3.18) · [Compare](https://github.com/BetaHuhn/running-at/compare/v0.3.17...v0.3.18) · [Tag](https://github.com/BetaHuhn/running-at/tree/v0.3.18) · Archive ([zip](https://github.com/BetaHuhn/running-at/archive/v0.3.18.zip) · [tar.gz](https://github.com/BetaHuhn/running-at/archive/v0.3.18.tar.gz))
