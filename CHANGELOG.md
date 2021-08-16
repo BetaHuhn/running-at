@@ -1,3 +1,11 @@
+## [v0.3.24] - 2021-08-16
+
+[Release notes](https://github.com/BetaHuhn/running-at/releases/tag/v0.3.24) · [Compare](https://github.com/BetaHuhn/running-at/compare/v0.3.23...v0.3.24) · [Tag](https://github.com/BetaHuhn/running-at/tree/v0.3.24) · Archive ([zip](https://github.com/BetaHuhn/running-at/archive/v0.3.24.zip) · [tar.gz](https://github.com/BetaHuhn/running-at/archive/v0.3.24.tar.gz))
+
+### Dependency updates
+
+- [`4d38541`](https://github.com/BetaHuhn/running-at/commit/4d38541)  Bump path-parse from 1.0.6 to 1.0.7
+
 ## [v0.3.23] - 2021-08-09
 
 [Release notes](https://github.com/BetaHuhn/running-at/releases/tag/v0.3.23) · [Compare](https://github.com/BetaHuhn/running-at/compare/v0.3.22...v0.3.23) · [Tag](https://github.com/BetaHuhn/running-at/tree/v0.3.23) · Archive ([zip](https://github.com/BetaHuhn/running-at/archive/v0.3.23.zip) · [tar.gz](https://github.com/BetaHuhn/running-at/archive/v0.3.23.tar.gz))
