@@ -1,3 +1,12 @@
+## [v0.3.25] - 2021-09-13
+
+[Release notes](https://github.com/BetaHuhn/running-at/releases/tag/v0.3.25) · [Compare](https://github.com/BetaHuhn/running-at/compare/v0.3.24...v0.3.25) · [Tag](https://github.com/BetaHuhn/running-at/tree/v0.3.25) · Archive ([zip](https://github.com/BetaHuhn/running-at/archive/v0.3.25.zip) · [tar.gz](https://github.com/BetaHuhn/running-at/archive/v0.3.25.tar.gz))
+
+### Dependency updates
+
+- [`2ce72e0`](https://github.com/BetaHuhn/running-at/commit/2ce72e0)  Bump @betahuhn/config from 1.1.0 to 1.2.0
+- [`5956fa5`](https://github.com/BetaHuhn/running-at/commit/5956fa5)  Bump normalize-url from 4.5.0 to 4.5.1
+
 ## [v0.3.24] - 2021-08-16
 
 [Release notes](https://github.com/BetaHuhn/running-at/releases/tag/v0.3.24) · [Compare](https://github.com/BetaHuhn/running-at/compare/v0.3.23...v0.3.24) · [Tag](https://github.com/BetaHuhn/running-at/tree/v0.3.24) · Archive ([zip](https://github.com/BetaHuhn/running-at/archive/v0.3.24.zip) · [tar.gz](https://github.com/BetaHuhn/running-at/archive/v0.3.24.tar.gz))
